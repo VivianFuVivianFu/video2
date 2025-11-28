@@ -1,0 +1,12 @@
+{
+  "name": "luma-producthunt-video",
+  "version": "1.0.0",
+  "description": "Product Hunt launch video generator for Luma AI",
+  "type": "module",
+  "scripts": {
+    "render": "node src/render-puppeteer.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
+}
