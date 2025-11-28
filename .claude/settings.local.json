@@ -8,7 +8,11 @@
       "Bash(ping:*)",
       "Bash(del:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Luma Product Hunt launch video generator\n\n- Complete video rendering system using Puppeteer\n- 60-second animated video with 6 scenes\n- Mobile UI mockups and chat conversations\n- Intelligence layer and value proposition animations\n- Brand colors and professional design\n- Full documentation and setup guides\n\n🤖 Generated with Claude Code\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []
